@@ -11,8 +11,9 @@ import { Component, Prop, Vue } from 'vue-property-decorator'
 
 @Component
 export default class CalendarDay extends Vue {
+    //comments
     @Prop({
-      default: 3
+      default: 4
     }) number!: number
 
     @Prop({
